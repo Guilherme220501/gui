@@ -2,5 +2,5 @@ thead{text-align: left;font-size: 20px;font-family: 'Franklin Gothic Medium', 'A
 tbody{font-size: 15px;font-style: italic;text-align: left;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 tfoot{text-align: left;font-size: 20px;font-family: 'Times New Roman', Times, serif;font-style: initial;}
 dl{padding: 5px;}
-dt{text-align: left;font-size: 30x;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: oblique;text-shadow: 5px;padding: 5px;}
+dt{text-align: left;font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;padding: 5px;text-shadow: 5px;font-style: oblique;}
 dd{text-align: left;font-size: 15px;font-family: Arial, Helvetica, sans-serif;font-style: inherit;padding: 5px;}

@@ -8,8 +8,8 @@
 </head>
 <style>
     fieldset{background-color: blueviolet;width: 300px;margin: auto;border-radius: 10px 10px;padding: 10px;}
-    label{width: 200px;padding: 10px;border-radius: 10px 10px;font-size: 20px;color: white;}
-    input{text-align: left;color: black;font-size: 15px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;width: 200px;border-radius: 10px 10px;border: 3px solid red;}
+    label{padding: 10px;border-radius: 10px 10px;font-size: 20px;color: white;display: flex;flex-direction: column;}
+    input{text-align: left;color: black;font-size: 15px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;width: 200px;border-radius: 10px 10px;border: 3px solid red;margin: auto;}
     option{background-color: beige;color: red;}
     textarea{width: 300px;border: 4px solid blue;border-radius: 10px 10px;}
     button{border: 3px solid red;background-color: aqua;border-radius: 10px 10px;color: blue;}
@@ -17,15 +17,15 @@
     body{background: linear-gradient(to right,white,red,white);text-align: center;}
     h1{color: black;font-size: 30px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: oblique;}
     p{color: white;font-size: 15px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-style: inherit;}
-    .color{background-color: rgb(0, 0, 0);width: 100px;border-radius: 10px 10px;margin: auto;box-shadow: 10px 10px 10px white;padding: 10px;}
+    .color{background-color: rgb(0, 0, 0);width: 200px;border-radius: 10px 10px;margin: auto;box-shadow: 10px 10px 10px white;padding: 10px;}
     summary{width: 300px;margin: auto;border-radius: 10px 10px;}
 </style>
 <body>
     <div id="text"><details><summary style="background-color: aqua;box-shadow: 5px 5px 5px red;border-radius: 10px 10px;color: black;">Cadastro de <b style="color: red;">Brasileiros</b></summary>
+        <br>
     <form>
         <fieldset>
         <header><h1><big>Cadastro de <b style="color: red;">Brasileiros</b></big></h1></header>
-        <br>
             <label for="Nome">Nome</label>
             <input type="text" name="Nome" id="Nome" required>
             <label for="Idade">Idade</label>
@@ -41,25 +41,22 @@
             <label for="Endereço">Endereço</label>
             <input type="text" name="Endereço" id="Endereço" required>
             <br>
-            <br>
             <label>Qual a sua <b style="color: red;">Experiência</b>?</label>
-            <br>
-            <br>
             <div class="color">
             <label for="Jovem"><b style="color: yellow;">Jovem</b></label>
-            <input type="radio" value="Experiência" name="Jovem" required>
+            <input type="radio" value="Jovem" name="Experiência" required>
             <label for="Aprendiz"><b style="color: yellow;">Aprendiz</b></label>
-            <input type="radio" value="Experiência" name="Aprendiz" required>
+            <input type="radio" value="Aprendiz" name="Experiência" required>
             <label for="Iniciante"><b style="color: yellow;">Iniciante</b></label>
-            <input type="radio" value="Experiência" name="Iniciante" required>
+            <input type="radio" value="Iniciante" name="Experiência" required>
             <label for="Veterano"><b style="color: yellow;">Veterano</b></label>
-            <input type="radio" value="Experiência" name="Veterano" required>
+            <input type="radio" value="Veterano" name="Experiência" required>
             <label for="Hard"><b style="color: yellow;">Hard</b></label>
-            <input type="radio" value="Experiência" name="Hard" required>
+            <input type="radio" value="Hard" name="Experiência" required>
             <label for="Expert"><b style="color: yellow;">Expert</b></label>
-            <input type="radio" value="Experiência" name="Expert" required>
+            <input type="radio" value="Expert" name="Experiência" required>
             <label for="Master"><b style="color: yellow;">Master</b></label>
-            <input type="radio" value="Experiência" name="Master" required>
+            <input type="radio" value="Master" name="Experiência" required>
             </div>
             <br>
             <label>Qual o seu <b style="color: red;">Signo</b>?</label>
