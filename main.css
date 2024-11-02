@@ -19,7 +19,7 @@ list-style: none;
     left: -250px; /* Fora da tela inicialmente */
     width: 170px;
     height: 500vh;
-    background-color:rgb(56, 31, 194);
+    background-color:white;
     transition: left 0.5s;
     z-index: 1000;
     border-radius: 10px 10px;
